@@ -1,0 +1,7 @@
+version: "20.10.21"
+services:
+  rtmp:
+    build: ./RTMP2
+    ports:
+      - "1935:1935"
+    container_name: rtmp_server
